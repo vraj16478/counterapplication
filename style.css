@@ -1,0 +1,36 @@
+body{
+  background-color: black;
+  color: white;
+}
+#counter{
+    display: block;
+
+  text-align: center;
+  font-size: 50px;
+}
+.btncontainer{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.btn{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  background-color:chocolate;
+  color:blanchedalmond;
+  border: 2px solid cadetblue;
+  box-shadow: 2px 2px 3px cornsilk;
+  border-radius: 30px;
+  cursor: pointer;
+  
+}
+
+ .btn:hover{
+  background-color: darkgoldenrod;
+    color: blueviolet;
+    transition: 0.5s;
+    
+}
